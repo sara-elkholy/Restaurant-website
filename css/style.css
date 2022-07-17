@@ -32,8 +32,8 @@ section{
     padding: 2rem 9%;
 }
 header{
-    position: fixed;
-    display: flex;
+    position:fixed;
+    display:flex;
     padding: 1rem 7%;
     top: 0;
     left: 0;
@@ -92,6 +92,7 @@ header .icons i:hover{
 }
 header .icons #menuBar{
     display: none;
+    
 }
 
 
@@ -391,13 +392,16 @@ background: #eee;
 
 
 @media (max-width:768px) {
+   
     header .icons #menuBar{
-        display: inline-block;
+        display:flex;
     }
     
     
+
+
     header.navbar{
-     position: absolute;
+     position:absolute;
      top: 100% ;
      left: 0;
      right: 0;
@@ -408,14 +412,23 @@ background: #eee;
      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
      
 } 
-    header .navbar.active{
+header .navbar.active{
     clip-path:polygon(0 0, 100% 100%, 100% 100%,0 0);
+    
     }
 
    header .navbar a{
-       display: block;
+       display: inline;
        margin: 1rem;
        background: #eee;
    }
-   
+   header .icons #menuBar{
+    display: block;
+   }
+   header .logo{
+    font-size: 2rem;
+   }
+   .home{
+    margin-top: 30%;
+   }
 }
