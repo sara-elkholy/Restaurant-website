@@ -424,6 +424,7 @@ header .navbar.active{
    }
    header .icons #menuBar{
     display: block;
+        height: -110%;
    }
    header .logo{
     font-size: 1.5rem;
