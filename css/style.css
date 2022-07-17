@@ -430,5 +430,6 @@ header .navbar.active{
    }
    .home{
     margin-top: 60%;
+    padding-top:2rem;
    }
 }
