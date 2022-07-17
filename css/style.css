@@ -423,12 +423,12 @@ header .navbar.active{
        background: #eee;
    }
    header .icons #menuBar{
-    display: grid;
+    display: block;
    }
    header .logo{
-    font-size: 2rem;
+    font-size: 1.5rem;
    }
    .home{
-    margin-top: 30%;
+    margin-top: 60%;
    }
 }
